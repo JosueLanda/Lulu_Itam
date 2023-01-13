@@ -1,0 +1,27 @@
+
+0: Principiante. 
+	
+	-Histograma de digitos 0-9  hasta n.
+	-Convertir de grados F a C y vicecersa segun del país de origen de la persona.
+	-Calcular cuantos teemos mide la grieta del invocador.
+
+1: Basico
+
+	-Un programa que copie la entrada reemplazando saltos de linea por \newline. 
+	-Calcular distancia recorrida de una rueda con n  diametro y m  rotaciones.
+	-Calcular rutina de ejercicio de la persona segun su estilo de vida, objetivo y horario.
+
+2: Intermedio
+
+	-Oro para comprar objetos.
+	-Aquirir la mayor cantidad de terreno.
+	-Calcular los requisitos energeticos y nutrimentales de una persona segun su edad, peso, objetivo, etc.
+
+3: Intermedio II
+
+	-Calcular la mejor ruta para recorrer un grafo.
+	-Dibujar una habitación usando triangulación con laser.
+
+*: Avanzado 
+
+	-Algoritmo de regresion lineal paracalcular el numero optimo de autobuses cargados segun el flujo de estudiantes.
