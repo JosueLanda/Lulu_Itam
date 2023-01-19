@@ -1,27 +1,58 @@
+Con el fin de generar una mejor experiencia para los participantes he redistribuido los problemas de forma piramidal. Creando mas problemas sencillos y menos problemas dificiles pero mas valiosos. De esa manera tanto novatos como expertos pueden resolver una mayor cantidad de problemas en promedio.
 
-0: Principiante. 
-	
-	-Histograma de digitos 0-9  hasta n.
-	-Convertir de grados F a C y vicecersa segun del país de origen de la persona.
-	-Calcular cuantos teemos mide la grieta del invocador.
+		# Prob.	 Pts
+Avanzado II	1	 250
+Avanzado	2	 150
+Intermedio	4 	 80
+Basicos 	5 	 40
+Principiantes	9 	 10
+
+Tambien  clasifiqué algunos problemas en categorías con la idea de que se resuelvan de manera secuencial para incentivar que se reutilicen rutinas de codigo con ciertas modificaciones y requisitos. Esto con la intención de poder presentar problemas mas complejos al mismo tiempo que se aprovecha el tiempousado para resolver problemas previos.
+
+Las categorías hasta el momento son:
+
+->Física y Matematica
+->Salud
+->Robótica y Geometria
+
+0: Principiante.
+ 
+	Física y Matemática:	
+		-Convertir de grados F a C y vicecersa.
+		-Calcular distancia recorrida de una rueda con 'n' diametro y 'm' rotaciones.
+		-Calcular la fuerza necesaria para mover una tuberia de peso 'g'.
+
+	Salud:
+		-Calcular las calorias que debe debe consumir una persona para conseguir sus objetivos de aumento o perdida de peso.
+		-Calcular los nutrientes que debe consumir una persona.
+		-Histograma para identificar el fallo con un ejercicio.
+
+	Robotica y Geometria:
+
+		-Calcular los angulos internos de un poligono regular de 'n' lados.
+		-Realizar el teorema de pitagoras con la hipotenusa y un cateto.
+		
 
 1: Basico
 
-	-Un programa que copie la entrada reemplazando saltos de linea por \newline. 
-	-Calcular distancia recorrida de una rueda con n  diametro y m  rotaciones.
-	-Calcular rutina de ejercicio de la persona segun su estilo de vida, objetivo y horario.
-
+	Matematica:
+		-Obtener el mcm de dos numeros.
+	Salud:	
+		-Crear una funcion que reciba el nombre de un alimento y devuelva sus calorias y nutrientes.
+	
+		-Un programa que copie la entrada reemplazando saltos de linea por \newline, tabs por \tab  y sustituya todos los espacios por comas. 
+	Robótica:
+		-Representar graficamente la informacion recibida por un sensor de distancia.
 2: Intermedio
 
+	Matematicas:
+	-Obtener el mcd de tres numeros.
 	-Oro para comprar objetos.
 	-Aquirir la mayor cantidad de terreno.
 	-Calcular los requisitos energeticos y nutrimentales de una persona segun su edad, peso, objetivo, etc.
 
-3: Intermedio II
+3: Avanzado 
 
-	-Calcular la mejor ruta para recorrer un grafo.
-	-Dibujar una habitación usando triangulación con laser.
 
-*: Avanzado 
+*: Avanzado II 
 
-	-Algoritmo de regresion lineal paracalcular el numero optimo de autobuses cargados segun el flujo de estudiantes.
