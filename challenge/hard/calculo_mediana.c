@@ -29,7 +29,7 @@ int main()
         qsort(numeros, sizeof(numeros) / sizeof(*numeros), sizeof(*numeros), comp);
         if (n % 2)
         {
-            printf("%d\n", numeros[n / 2] * 2);
+            printf("%d\n", numeros[n / 2]);
         }
         else
         {
