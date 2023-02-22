@@ -9,6 +9,8 @@ int main()
     {
         i = 0;
         scanf("%d", &n);
+        if (n == 0)
+            break;
         while (n > 0)
         {
             conversion[i] = n % 2;

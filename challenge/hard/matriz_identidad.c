@@ -1,4 +1,3 @@
-/* ¿Es matriz identidad? */
 #include <stdio.h>
 
 int main()
