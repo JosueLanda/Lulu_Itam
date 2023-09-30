@@ -20,7 +20,7 @@ n es un numero entero donde :
 
 Output Format
 
-- Imprime los factores primos de n en orden ascendente, separados por espacios.
+Imprime los factores primos de n en orden ascendente, separados por espacios.
 
 ```c
 2 2 2 7
