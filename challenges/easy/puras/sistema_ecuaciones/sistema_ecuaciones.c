@@ -16,13 +16,13 @@ int main()
 
     if (determinante == 0)
     {
-        printf("No existe solucion unica\n");
+        printf("No existe solucion unica");
     }
     else
     {
         x = determinantex / determinante;
         y = determinantey / determinante;
-        printf("%.2f\n%.2f\n", x, y);
+        printf("%.2f %.2f ", x, y);
     }
 
     return 0;

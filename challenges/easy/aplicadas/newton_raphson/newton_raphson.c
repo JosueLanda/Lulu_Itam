@@ -28,7 +28,7 @@ int main()
 
     double root = newton_raphson(x0, epsilon);
 
-    printf("%.4lf\n", root);
+    printf("%.4lf", root);
 
     return 0;
 }
