@@ -20,43 +20,25 @@ La segunda línea de entrada contiene una secuencia de corchetes de longitud n, 
 **Output** \
 Imprime "Sí" si Petya puede hacer que su secuencia sea correcta moviendo como máximo un corchete. De lo contrario, imprime "No".
 
-**Ejemplos**
-| Input |
-| ----- |
-| 2     |
-| )(    |
+| Ejemplo de entrada 1 | Ejemplo de salida 1 |
+|----------------------|---------------------|
+| 2                    | Si                  |
+| )(                   |                     |
 
-| Output |
-| ------ |
-| Si     |
-----------
-| Input |
-| ----- |
-| 3     |
-| (()   |
+| Ejemplo de entrada 2 | Ejemplo de salida 2 |
+|----------------------|---------------------|
+| 3                    | NO                  |
+| (()                  |                     |
 
-| Output |
-| ------ |
-| NO     |
-----------
-| Input |
-| ----- |
-| 2     |
-| ()    |
+| Ejemplo de entrada 3 | Ejemplo de salida 3 |
+|----------------------|---------------------|
+| 2                    | SI                  |
+| ()                   |                     |
 
-| Output |
-| ------ |
-| SI     |
-
-----------
-| Input      |
-| ---------- |
-| 10         |
-| )))))((((( |
-
-| Output |
-| ------ |
-| NO     |
+| Ejemplo de entrada 4 | Ejemplo de salida 4 |
+|----------------------|---------------------|
+| 10                   | NO                  |
+| )))))((((            |                     |
 
 **Nota** \
 En el primer ejemplo, Petya puede mover el primer corchete al final, convirtiendo así la secuencia en "()", que es una secuencia de corchetes correcta.

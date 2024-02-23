@@ -1,27 +1,21 @@
-Problem Statement
+# Problema: Factorización de números
 
-Dado un número entero positivo, encuentra su factorización en factores primos.
+## Descripción
+Dado un número entero positivo $N$, tu tarea es encontrar todos los factores primos de $N$ y luego mostrar su multiplicación.
 
-Input Format
+## Entrada
+La entrada consta de un único entero positivo ($N$) donde ($2 \leq N \leq 10^6$).
 
-La entrada consistirá en un solo número entero, n Ej:
+## Salida
+Debes imprimir una línea que debe contener los factores primos de $N$ separados por espacios.
 
-```c
-56
-```
 
-Constraints
+| Ejemplo de entrada | Ejemplo de salida |
+|--------------------|-------------------|
+| 24                 | 2 2 2 3           |
+|                    |                   |
 
-n es un numero entero donde :
 
-```c
-(56 <= n <= 76).
-```
+**Nota** \
+Para $N = 24$, los factores primos son $2, 2, 2$ y $3$. Su multiplicación es $2 \times 2 \times 2 \times 3 = 24$.
 
-Output Format
-
-Imprime los factores primos de n en orden ascendente, separados por espacios.
-
-```c
-2 2 2 7
-``` 
