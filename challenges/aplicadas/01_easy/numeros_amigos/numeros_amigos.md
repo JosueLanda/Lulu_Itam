@@ -20,7 +20,7 @@ Debes imprimir "Si" si los números son amigos y "No" si no lo son.
 | 1184                 | Si                  |
 | 1210                 |                     |
 
-### Explicación
+**Nota** 
 - En el primer ejemplo, los divisores propios de $220$ suman $1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284$, y los divisores propios de $284$ suman $1 + 2 + 4 + 71 + 142 = 220$, por lo tanto, son amigos.
 - En el segundo ejemplo, los divisores propios de $1184$ suman $1 + 2 + 4 + 8 + 16 + 37 + 74 + 148 + 296 + 592 = 1210$, y los divisores propios de $1210$ suman $1 + 2 + 5 + 10 + 11 + 22 + 55 + 110 + 121 = 1184$, por lo tanto, son amigos.
 
