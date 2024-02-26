@@ -23,12 +23,21 @@ Claro, puedo presentar las salidas como dos tablas. Aquí tienes:
 
 ### Ejemplos de Entrada y Salida
 
-| Entrada | Salida |
-|---------|--------|
-|    3    |   12   |
-|    4    |   17   |
-|    5    |   21   |
-|    6    |   27   |
+| Ejemplo de entrada 1 | Ejemplo de salida 1 |
+|----------------------|---------------------|
+|           3          |          12         |
+
+| Ejemplo de entrada 2 | Ejemplo de salida 2 |
+|----------------------|---------------------|
+|           4          |          17         |
+
+| Ejemplo de entrada 3 | Ejemplo de salida 3 |
+|----------------------|---------------------|
+|           5          |          21         |
+
+| Ejemplo de entrada 4 | Ejemplo de salida 4 |
+|----------------------|---------------------|
+|           6          |          26         |
 
 #### Explicación de los Ejemplos:
 
