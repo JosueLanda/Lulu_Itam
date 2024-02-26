@@ -19,8 +19,6 @@ La entrada consta de un solo entero $n$ ($1 \leq n \leq 1000$), que representa e
 ### Salida
 Imprime un solo entero que representa el índice del primer término de la sucesión de Fibonacci que contiene exactamente $n$ dígitos.
 
-Claro, puedo presentar las salidas como dos tablas. Aquí tienes:
-
 ### Ejemplos de Entrada y Salida
 
 | Ejemplo de entrada 1 | Ejemplo de salida 1 |
