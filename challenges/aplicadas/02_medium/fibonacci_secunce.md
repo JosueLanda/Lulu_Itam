@@ -39,19 +39,10 @@ Claro, puedo presentar las salidas como dos tablas. Aquí tienes:
 |----------------------|---------------------|
 |           6          |          26         |
 
-#### Explicación de los Ejemplos:
-
-- Para la entrada 3, el primer término de la sucesión de Fibonacci con 3 dígitos es \( F_{12} = 144 \).
-- Para la entrada 4, el primer término de la sucesión de Fibonacci con 4 dígitos es \( F_{17} = 1597 \).
-- Para la entrada 5, el primer término de la sucesión de Fibonacci con 5 dígitos es \( F_{21} = 10946 \).
-- Para la entrada 6, el primer término de la sucesión de Fibonacci con 6 dígitos es \( F_{27} = 196418 \).
-
-
 ### Explicación
 En el primer ejemplo anterior, se busca el índice del primer término de la sucesión de Fibonacci que contiene exactamente 3 dígitos. El duodécimo término, $F_{12} = 144$, es el primer término que cumple esta condición.
 
-
-**Notas**\
+**Notas**
 - Juanito, con su incansable espíritu investigador, confía en tu habilidad para resolver este desafío matemático y ayudar a desentrañar otro misterio en Fibonacciville. ¡Es hora de poner a prueba tus habilidades matemáticas y de programación!
 - Recuerda que calcular los números de fibonacci cuesta demasiada memoria del ordenador por tanto puedes apoyarte en las siguientes formulas:
   - $$\phi = \frac{1+\sqrt{5}}{2}$$
