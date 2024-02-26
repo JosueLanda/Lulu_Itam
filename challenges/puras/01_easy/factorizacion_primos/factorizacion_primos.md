@@ -6,7 +6,7 @@ Dado un número entero positivo $N$, tu tarea es encontrar todos los factores pr
 ## Entrada
 La entrada consta de un único entero positivo ($N$) donde ($2 \leq N \leq 10^6$).
 
-## Salida
+## Ejemplos de Entrada y Salida
 Debes imprimir una línea que debe contener los factores primos de $N$ separados por espacios.
 
 

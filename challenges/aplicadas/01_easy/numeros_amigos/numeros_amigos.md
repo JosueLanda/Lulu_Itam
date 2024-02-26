@@ -6,7 +6,7 @@ Dos números enteros positivos $A$ y $B$ se llaman "amigos" si la suma de los di
 ## Entrada
 La entrada consta de dos enteros positivos $A$ y $B$ ($1 \leq A, B \leq 10^5$).
 
-## Salida
+## Ejemplos de Entrada y Salida
 Debes imprimir "Si" si los números son amigos y "No" si no lo son.
 
 
