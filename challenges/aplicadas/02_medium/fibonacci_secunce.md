@@ -45,4 +45,5 @@ En el primer ejemplo anterior, se busca el índice del primer término de la suc
 **Notas**\
 - Juanito, con su incansable espíritu investigador, confía en tu habilidad para resolver este desafío matemático y ayudar a desentrañar otro misterio en Fibonacciville. ¡Es hora de poner a prueba tus habilidades matemáticas y de programación!
 - Recuerda que calcular los números de fibonacci cuesta demasiada memoria del ordenador por tanto puedes apoyarte en las siguientes formulas:
-$$\phi = \frac{1+\sqrt{5}}{2}$$
+  - $$\phi = \frac{1+\sqrt{5}}{2}$$
+  - $$f_n = int  \left( \frac{\phi^n}{\sqrt{5}}+\frac{1}{2} \right) $$
