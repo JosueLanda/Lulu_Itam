@@ -1,6 +1,6 @@
-Problem Statement
+# Problem Statement
 
-Dado un conjunto $G$ y una tabla de multiplicación, determina si $G$ forma un grupo.
+Dado un conjunto $G = \{ 1,2, \cdots,n\}$ y una "tabla de multiplicación" sobre la operación $\star$, determina si $G$ con la operación $\star$ forman un grupo.
 
 Un grupo es un conjunto junto con una operación binaria que satisface las siguientes propiedades:
 
@@ -11,23 +11,39 @@ Un grupo es un conjunto junto con una operación binaria que satisface las sigui
 3. Existencia de inversos: Para todo $a$ en $G$, existe un elemento $b$ en $G$ tal que $a \cdot b = b \cdot a = e$, donde $e$ es el elemento neutro.
 
 
-Input Format
+# Input Format
 
 La primera línea contiene un entero $n$ que representa el tamaño del conjunto $G$ ($1 \leq n \leq 100$).
 
-La segunda línea contiene $n$ enteros distintos que representan los elementos del conjunto $G$.
-
-Las siguientes $n$ líneas contienen la tabla de multiplicación. Cada línea contiene $n$ enteros separados por espacios, donde el elemento en la fila $i$ y columna $j$ representa $a_i \cdot a_j$ donde $a_i$ y $a_j$ son los elementos del conjunto $G$.
+Las siguientes $n$ líneas contienen la tabla de multiplicación. Cada línea contiene $n$ enteros $g_{ij}$ $(1 \leq g_{ij} \leq n)$ separados por espacios, donde el elemento en la fila $i$ y columna $j$ representa $ g_{ij} = i \star j$.
 
 
-Constraints
+# Constraints
+- $n$:  ($1 \leq n \leq 100$)
+- $g_{ij}$: ($1 \leq g_{ij} \leq n$)
 
-#TODO
 
-```c
-
-```
-
-Output Format
+# Output Format
 
 Imprime "SI" si $G$ forma un grupo. De lo contrario, imprime "NO". 
+
+# Ejemplos
+| Ejemplo de entrada 1    | Ejemplo de salida 1 |
+| ----------------------- | ------------------- |
+| 3                       | NO                  |
+| 1 2 3<br>2 2 3<br>3 3 3 |                     |
+
+| Ejemplo de entrada 2    | Ejemplo de salida 2 |
+| ----------------------- | ------------------- |
+| 3                       | SI                  |
+| 1 2 3<br>2 1 2<br>3 2 1 |                     |
+
+| Ejemplo de entrada 3    | Ejemplo de salida 3 |
+| ----------------------- | ------------------- |
+| 3                       | NO                  |
+| 2 3 1<br>1 3 3<br>2 2 2 |                     |
+
+# Explicación
+El ejemplo número 1 es la tabla de la operación $\max(i,j)$, es facil notar que el máximo es asociativo, el elemento neutro es el $1$, pero no existe un inverso para cada elemento tal que $\max(i,1) = 1$
+
+El ejemplo 2 tiene el neutro 1, además para cada elemento $i$, $g_{ii}=1$ y se cumple la asociatividad.
