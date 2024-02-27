@@ -1,29 +1,17 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
-
-int maxTotal = 0;
-
-void backtrack(vector<vector<int>>& triangle, int row, int col, int currentTotal) {
-    // Si alcanzamos la última fila, actualizamos el máximo total si es necesario
-    if (row == triangle.size() - 1) {
-        maxTotal = max(maxTotal, currentTotal + triangle[row][col]);
-        return;
-    }
-
-    // Avanzamos hacia abajo y hacia la izquierda
-    backtrack(triangle, row + 1, col, currentTotal + triangle[row][col]);
-
-    // Avanzamos hacia abajo y hacia la derecha
-    backtrack(triangle, row + 1, col + 1, currentTotal + triangle[row][col]);
-}
 
 int main() {
     int height;
     cin >> height;
 
+    // Declaración del triángulo de números
     vector<vector<int>> triangle(height);
+    
+    // Lectura del triángulo de números
     for (int i = 0; i < height; ++i) {
         triangle[i].resize(i + 1);
         for (int j = 0; j <= i; ++j) {
@@ -31,9 +19,15 @@ int main() {
         }
     }
 
-    backtrack(triangle, 0, 0, 0);
+    // Aplicación de programación dinámica para encontrar la suma máxima
+    for (int i = height - 2; i >= 0; --i) {
+        for (int j = 0; j <= i; ++j) {
+            triangle[i][j] += max(triangle[i+1][j], triangle[i+1][j+1]);
+        }
+    }
 
-    cout << maxTotal << endl;
+    // La suma máxima se encuentra en la cima del triángulo
+    cout << "La suma máxima de arriba hacia abajo es: " << triangle[0][0] << endl;
 
     return 0;
 }
