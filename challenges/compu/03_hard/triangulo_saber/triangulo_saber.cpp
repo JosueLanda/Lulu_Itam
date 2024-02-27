@@ -19,7 +19,6 @@ int main() {
         }
     }
 
-    // Aplicación de programación dinámica para encontrar la suma máxima
     for (int i = height - 2; i >= 0; --i) {
         for (int j = 0; j <= i; ++j) {
             triangle[i][j] += max(triangle[i+1][j], triangle[i+1][j+1]);
@@ -27,7 +26,7 @@ int main() {
     }
 
     // La suma máxima se encuentra en la cima del triángulo
-    cout << "La suma máxima de arriba hacia abajo es: " << triangle[0][0] << endl;
+    cout << triangle[0][0] << endl;
 
     return 0;
 }
