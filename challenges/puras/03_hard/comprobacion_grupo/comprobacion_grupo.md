@@ -18,12 +18,12 @@ Un grupo es un conjunto junto con una operación binaria que satisface las sigui
 
 La primera línea contiene un entero $n$ que representa el tamaño del conjunto $G$ ($1 \leq n \leq 100$).
 
-Las siguientes $n$ líneas contienen la tabla de multiplicación. Cada línea contiene $n$ enteros $g_{ij}$ $(1 \leq g_{ij} \leq n)$ separados por espacios, donde el elemento en la fila $i$ y columna $j$ representa $ g_{ij} = i \star j$.
+Las siguientes $n$ líneas contienen la tabla de multiplicación. Cada línea contiene $n$ enteros $g_{ij}$ $(0 \leq g_{ij} \leq n-1)$ separados por espacios, donde el elemento en la fila $i$ y columna $j$ representa $ g_{ij} = i \star j$.
 
 
 ### Constraints
 - $n$:  ($1 \leq n \leq 100$)
-- $g_{ij}$: ($1 \leq g_{ij} \leq n$)
+- $g_{ij}$: ($0 \leq g_{ij} \leq n-1$)
 
 
 ### Salida
@@ -34,17 +34,17 @@ Imprime "SI" si $G$ forma un grupo. De lo contrario, imprime "NO".
 | Ejemplo de entrada 1    | Ejemplo de salida 1 |
 | ----------------------- | ------------------- |
 | 3                       | NO                  |
-| 1 2 3<br>2 2 3<br>3 3 3 |                     |
+| 0 1 2<br>1 1 2<br>2 2 2 |                     |
 
 | Ejemplo de entrada 2    | Ejemplo de salida 2 |
 | ----------------------- | ------------------- |
 | 3                       | SI                  |
-| 1 2 3<br>2 1 2<br>3 2 1 |                     |
+| 0 1 2<br>1 2 0<br>2 0 1 |                     |
 
 | Ejemplo de entrada 3    | Ejemplo de salida 3 |
 | ----------------------- | ------------------- |
 | 3                       | NO                  |
-| 2 3 1<br>1 3 3<br>2 2 2 |                     |
+| 1 2 1<br>1 0 0<br>2 2 2 |                     |
 
 # Explicación
 El ejemplo número 1 es la tabla de la operación $\max(i,j)$, es facil notar que el máximo es asociativo, el elemento neutro es el $1$, pero no existe un inverso para cada elemento tal que $\max(i,1) = 1$

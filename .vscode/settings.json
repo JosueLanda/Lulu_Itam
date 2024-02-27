@@ -3,5 +3,8 @@
         "fibonacci",
         "Fibonacciville",
         "Juanito"
-    ]
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
