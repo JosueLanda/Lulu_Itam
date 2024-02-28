@@ -1,7 +1,7 @@
 # Probabilidad ordenada
 ### Descripción del Problema
 
-En el almacén de la señora Mathilda hay una caja con discos de colores brillantes con combinaciones únicas de discos azules y rojos. Al tomar dos discos al azar de una caja se observa que la probabilidad de seleccionar dos discos azules es exactamente del 50%. Intrigada por este fenómeno, la señora Mathilda se pregunta si existen otras disposiciones de discos que produzcan el mismo resultado.
+En el almacén de la señora Mathilda hay una caja con discos de colores brillantes con combinaciones únicas de discos azules y rojos. Al tomar dos discos al azar de una caja se observa que la probabilidad de seleccionar dos discos azules es exactamente del 50%. Intrigada por este fenómeno, la señora Mathilda se pregunta si existen otras combinaciones de discos que produzcan el mismo resultado.
 
 ### Ejemplo
 Si una caja contiene veintiún discos de colores, compuestos por quince discos azules y seis rojos, y se toman dos discos al azar, se observa que la probabilidad de tomar dos discos azules.
@@ -13,6 +13,11 @@ $$
 La siguiente disposición de este tipo, para la que hay exactamente un 50% de probabilidades de tomar dos discos azules al azar, es una caja que contiene $85$ discos azules y $35$ discos rojos.
 
 Encontrando la primera disposición que contenga más de un límite de discos en total, determine el número de discos azules que contendría la caja.
+
+**Nota:** Considera que puedes trabajar con números muy grandes, por lo que busca usar el tipo de dato:
+```cpp
+unsigned long long n;
+```
 
 ### Entrada
 Un solo entero $n \in (20 \leq n \leq 10^9)$ siendo la cantidad de discos totales.

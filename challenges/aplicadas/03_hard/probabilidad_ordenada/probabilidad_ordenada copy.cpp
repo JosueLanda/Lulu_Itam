@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-  int minimum;
+  unsigned long long minimum;
   cin >> minimum;
-  int blue = 15;
-  int red  =  6;
+  unsigned long long blue = 15;
+  unsigned long long red  =  6;
 
   // keep going until limit is reached
   while (blue + red < minimum)
   {
     // at first I brute-forced the first solutions and wrote them down
-    // then I saw the following relationship for p/q = 1/2:
+    // then I saw the following relationship:
     //  red(i+1) = 2 * blue(i) + red(i) - 1;
     // blue(i+1) = 2 * red(i+1)
     red   = 2 * blue + red - 1; // seems to be true for most p/q
