@@ -10,6 +10,8 @@ $2 \times 7 \times 11 = 154$
 $2 \times 5 \times 13 = 130$
 Por lo que vamos a preferir la combinación 2, 5 y 13.
 
+Tú puedes ser onichan de Goldbach-san, ¡encuentra esos 3 primos!.
+
 # Entrada
 Un solo entero $n$ $(7 \leq n \leq 2^{20})$.
 

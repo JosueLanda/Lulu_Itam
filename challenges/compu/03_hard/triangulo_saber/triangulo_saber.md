@@ -13,10 +13,8 @@ $$\textbf{3}\\
 
 Es decir que su suma máxima de arriba hacia abajo es, $3 + 7 + 4 + 9 = 23$.
 
-Halla el total máximo de arriba abajo del siguiente triángulo:
-
 ### Entrada
-Se dará un número $n \in (3 \leq n \leq 1000)$ siendo este el número de pisos de triángulo seguido después del triángulo con cada número separado por un espacio y cada entrada del triangulo $\beta_{ij} \in (1\leq \beta_{ij} \leq 99 )$
+Se dará un número $n \in (3 \leq n \leq 1000)$ siendo este el número de pisos de triángulo seguido después del triángulo con cada número separado por un espacio y cada entrada del triangulo $\beta_{ij} \in (1\leq \beta_{ij} \leq 99 )$.
 
 ### Salida
 El total de la suma máxima de arriba hacia abajo siendo un número $\alpha \in \mathbb{N}$

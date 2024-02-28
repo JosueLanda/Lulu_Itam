@@ -11,13 +11,16 @@ $$ F_n = F_{n-1} + F_{n-2} $$
 
 donde $F_1 = 1$ y $F_2 = 1$. Por lo tanto, los primeros términos son:
 
-$$ F_1 = 1, \quad F_2 = 1, \quad F_3 = 2, \quad F_4 = 3, \quad F_5 = 5, \quad F_6 = 8, \quad \text{etc.} $$
+$ F_1 = 1, \quad F_2 = 1, \quad F_3 = 2, \quad F_4 = 3$
+$F_5 = 5, \quad F_6 = 8, \quad F_7 = 12$
+
+En este caso, el índice del primer número de fibonacci con 2 dígitos es 7.
 
 ### Entrada
 La entrada consta de un solo entero $n$ ($1 \leq n \leq 1000$), que representa el número de dígitos que se desea encontrar en un término de la sucesión de Fibonacci.
 
 ### Salida
-Imprime un solo entero que representa el índice del primer término de la sucesión de Fibonacci que contiene exactamente $n$ dígitos.
+Imprime un solo entero, seguido de un salto de línea, que representa el índice del primer término de la sucesión de Fibonacci que contiene exactamente $n$ dígitos.
 
 ### Ejemplos de Entrada y Salida
 
