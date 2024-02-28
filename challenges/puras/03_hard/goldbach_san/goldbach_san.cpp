@@ -2,10 +2,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> sieveOfEratosthenes(int n) {
+vector<unsigned long long> sieveOfEratosthenes(unsigned long long n) {
     // Creamos un vector para almacenar si un número es primo o no
     vector<bool> prime(n+1, true);
-    vector<int> primes;
+    vector<unsigned long long> primes;
 
     // Iteramos sobre los números empezando desde 2
     for (int p = 2; p * p <= n; p++) {
@@ -25,7 +25,7 @@ vector<int> sieveOfEratosthenes(int n) {
     return primes;
 }
 
-bool busquedaBinaria(vector<int>& arr, int target){
+bool busquedaBinaria(vector<unsigned long long>& arr, unsigned long long target){
     int left = 0;
     int right = arr.size() - 1;
 
@@ -52,15 +52,17 @@ bool busquedaBinaria(vector<int>& arr, int target){
 }
 
 int main(){
-    int n;
+    unsigned long long n;
 
     cin >> n;
-    vector<int> primos = sieveOfEratosthenes(n);
+    vector<unsigned long long> primos = sieveOfEratosthenes(n);
 
-    int p1=2, p2=2, p3=2; // Iniciamos los primos en 2
-    int f1=2, f2=2, f3=2;
+    unsigned long long p1=2, p2=2, p3=2; // Iniciamos los primos en 2
+    unsigned long long f1=2, f2=2, f3=2;
     
-    int max_mul = (1<<31) -1;
+    unsigned long long max_mul = (1<<64) -1;
+
+    bool found = false;
 
     for(int i = 0; i< int(primos.size()); i++){
         p1 = primos[i];
@@ -74,8 +76,12 @@ int main(){
                     f1 = p1;
                     f2 = p2;
                     f3 = p3;
+                    found = true;
                 }
             }
+        }
+        if(found){
+            break;
         }
     }
     cout<< f1 <<' '<<f2<<' '<<f3<<endl;
